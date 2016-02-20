@@ -39,6 +39,9 @@
   :config
   (helm-mode 1))
 
+(use-package paredit
+  :ensure t)
+
 (use-package projectile
   :ensure t
   :init
