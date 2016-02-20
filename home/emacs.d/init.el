@@ -56,6 +56,7 @@
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (setq auto-save-default nil)
 (setq make-backup-files nil)
+(setq require-final-newline t)
 
 ;;;; misc
 
