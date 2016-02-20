@@ -20,6 +20,9 @@
   :init
   (load-theme 'base16-default-dark t))
 
+(use-package cider
+  :ensure t)
+
 (use-package evil
   :ensure t
   :config
