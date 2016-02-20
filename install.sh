@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+mkdir ~/.bin
+
 dir=`pwd`
 
 ln -s "$dir/home/bash_profile" ~/.bash_profile
