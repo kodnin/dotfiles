@@ -70,6 +70,11 @@
 (setq make-backup-files nil)
 (setq require-final-newline t)
 
+;;;; tabs
+
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 2)
+
 ;;;; misc
 
 (defalias 'yes-or-no-p 'y-or-n-p)
