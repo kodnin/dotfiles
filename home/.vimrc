@@ -1,1 +1,2 @@
+set viminfo=
 syntax on
