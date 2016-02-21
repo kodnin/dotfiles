@@ -3,3 +3,6 @@
 	email = kodnin@gmail.com
 [core]
 	excludesfile = ~/.gitignore
+[alias]
+	gr = grep --break --heading --line-number
+	ds = diff --staged
