@@ -39,6 +39,9 @@
   :config
   (helm-mode 1))
 
+(use-package markdown-mode
+  :ensure t)
+
 (use-package paredit
   :ensure t)
 
