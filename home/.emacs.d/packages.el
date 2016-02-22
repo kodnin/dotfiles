@@ -64,3 +64,6 @@
   :ensure t
   :init
   (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode)))
+
+(use-package yaml-mode
+  :ensure t)
