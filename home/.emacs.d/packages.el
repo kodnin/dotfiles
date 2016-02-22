@@ -26,6 +26,11 @@
 (use-package clojure-mode
   :ensure t)
 
+(use-package coffee-mode
+  :ensure t
+  :init
+  (add-to-list 'auto-mode-alist '("\\.cjsx\\'" . coffee-mode)))
+
 (use-package evil
   :ensure t
   :config
