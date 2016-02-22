@@ -56,3 +56,6 @@
   (setq projectile-completion-system 'helm)
   :config
   (projectile-global-mode))
+
+(use-package sass-mode
+  :ensure t)
