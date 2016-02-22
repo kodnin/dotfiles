@@ -9,5 +9,6 @@ export PATH="./bin:~/.bin:$PATH"
 export PS1='\W$(__git_ps1 " (%s)") % '
 
 alias ls="ls -AG"
+alias rm="rm -i"
 
 shopt -s histappend
