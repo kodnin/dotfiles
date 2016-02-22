@@ -59,3 +59,8 @@
 
 (use-package sass-mode
   :ensure t)
+
+(use-package web-mode
+  :ensure t
+  :init
+  (add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode)))
