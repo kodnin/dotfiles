@@ -41,8 +41,12 @@
 
 (use-package helm
   :ensure t
+  :init
+  (setq helm-autoresize-min-height 25)
+  (setq helm-autoresize-max-height 25)
   :config
-  (helm-mode 1))
+  (helm-mode 1)
+  (helm-autoresize-mode 1))
 
 (use-package markdown-mode
   :ensure t)
