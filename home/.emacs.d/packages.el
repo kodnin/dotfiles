@@ -29,7 +29,8 @@
 (use-package coffee-mode
   :ensure t
   :init
-  (add-to-list 'auto-mode-alist '("\\.cjsx\\'" . coffee-mode)))
+  (add-to-list 'auto-mode-alist '("\\.cjsx\\'" . coffee-mode))
+  (setq coffee-tab-width 2))
 
 (use-package evil
   :ensure t
