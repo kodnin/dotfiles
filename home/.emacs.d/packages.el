@@ -33,6 +33,8 @@
 
 (use-package evil
   :ensure t
+  :init
+  (setq evil-shift-width 2)
   :config
   (evil-mode 1)
   (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
