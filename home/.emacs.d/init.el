@@ -9,8 +9,7 @@
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 
-(set-face-attribute 'vertical-border nil :foreground "#383838")
-
+(set-face-attribute 'vertical-border nil :foreground "#282828")
 (setq inhibit-startup-screen t)
 (setq initial-scratch-message nil)
 (setq-default mode-line-format "%b %& (%l,%c)")
