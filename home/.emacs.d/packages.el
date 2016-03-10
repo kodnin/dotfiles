@@ -74,6 +74,7 @@
   :ensure t
   :init
   (setq projectile-completion-system 'helm)
+  (setq projectile-use-git-grep t)
   :config
   (projectile-global-mode))
 
