@@ -42,6 +42,11 @@
   (define-key evil-normal-state-map (kbd "gcc") (lambda () (interactive) (comment-or-uncomment-region (line-beginning-position) (line-end-position))))
   (define-key evil-visual-state-map (kbd "gc") 'comment-or-uncomment-region))
 
+(use-package geiser
+  :init
+  (setq geiser-active-implementations '(guile))
+  :ensure t)
+
 (use-package helm
   :ensure t
   :init
