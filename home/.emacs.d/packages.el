@@ -43,7 +43,7 @@
   (setq evil-shift-width 2)
   :config
   (evil-mode 1)
-  (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
+  (define-key evil-normal-state-map (kbd "C-p") 'helm-projectile-find-file)
   (define-key evil-normal-state-map (kbd "gcc") (lambda () (interactive) (comment-or-uncomment-region (line-beginning-position) (line-end-position))))
   (define-key evil-visual-state-map (kbd "gc") 'comment-or-uncomment-region))
 
