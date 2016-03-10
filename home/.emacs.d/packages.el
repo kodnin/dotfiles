@@ -61,6 +61,13 @@
   (helm-mode 1)
   (helm-autoresize-mode 1))
 
+(use-package helm-projectile
+  :ensure t
+  :init
+  (defalias 'git-grep 'helm-projectile-grep)
+  :config
+  (helm-projectile-on))
+
 (use-package magit
   :ensure t)
 
