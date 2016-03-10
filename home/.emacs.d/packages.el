@@ -32,6 +32,11 @@
   (add-to-list 'auto-mode-alist '("\\.cjsx\\'" . coffee-mode))
   (setq coffee-tab-width 2))
 
+(use-package company
+  :ensure t
+  :config
+  (global-company-mode))
+
 (use-package evil
   :ensure t
   :init
