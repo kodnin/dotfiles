@@ -9,7 +9,7 @@ export PATH="~/.bin:$PATH"
 export PS1='\W$(__git_ps1 " (%s)") % '
 
 alias e='emacsclient -nw -a "" -s term'
-alias emacs='emacsclient -c -n -a "" -s gui'
+alias em='emacsclient -c -n -a "" -s gui'
 alias ls="ls -AG"
 alias rm="rm -i"
 
