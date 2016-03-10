@@ -31,6 +31,7 @@
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 (setq ring-bell-function (lambda () (message "Ehm...")))
+(setq ruby-insert-encoding-magic-comment nil)
 (setq scroll-step 1)
 (setq-default truncate-lines 1)
 (show-paren-mode 1)
