@@ -51,6 +51,9 @@
   (helm-mode 1)
   (helm-autoresize-mode 1))
 
+(use-package magit
+  :ensure t)
+
 (use-package markdown-mode
   :ensure t)
 
