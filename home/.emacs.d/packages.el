@@ -52,6 +52,9 @@
   (setq geiser-active-implementations '(guile))
   :ensure t)
 
+(use-package haskell-mode
+  :ensure t)
+
 (use-package helm
   :ensure t
   :init
