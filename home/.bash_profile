@@ -8,6 +8,7 @@ export HISTSIZE=100000
 export PATH="~/.bin:$PATH"
 export PS1='\W$(__git_ps1 " (%s)") % '
 
+alias bup="brew update && brew upgrade && brew cleanup"
 alias e='emacsclient -nw -a "" -s term'
 alias em='emacsclient -c -n -a "" -s gui'
 alias ls="ls -AG"
