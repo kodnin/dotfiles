@@ -30,6 +30,7 @@
 ;;;; misc
 
 (defalias 'yes-or-no-p 'y-or-n-p)
+(setq comint-prompt-read-only t)
 (setq ring-bell-function (lambda () (message "Ehm...")))
 (setq ruby-insert-encoding-magic-comment nil)
 (setq scroll-step 1)
