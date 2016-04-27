@@ -1,3 +1,6 @@
+source ~/.aliases.sh
+[ -f ~/.local.sh ] && source ~/.local.sh
+
 autoload -Uz compinit promptinit
 compinit
 promptinit
