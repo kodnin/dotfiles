@@ -8,6 +8,6 @@ unsetopt beep
 bindkey -e
 
 HISTFILE=~/.histfile
-HISTSIZE=10000
+HISTSIZE=100000
 PROMPT="%1~ %% "
-SAVEHIST=10000
+SAVEHIST=100000
