@@ -1,9 +1,8 @@
 source ~/.aliases.sh
 [ -f ~/.local.sh ] && source ~/.local.sh
 
-autoload -Uz compinit promptinit
+autoload -Uz compinit
 compinit
-promptinit
 
 setopt appendhistory
 unsetopt beep
