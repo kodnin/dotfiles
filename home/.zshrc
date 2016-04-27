@@ -10,5 +10,5 @@ bindkey -e
 
 HISTFILE=~/.histfile
 HISTSIZE=100000
-PROMPT="%1~ %% "
+PROMPT="%1~ %# "
 SAVEHIST=100000
