@@ -1,5 +1,4 @@
-source ~/.aliases.sh
-[ -f ~/.local.sh ] && source ~/.local.sh
+source ~/.environment.sh
 
 autoload -Uz compinit
 compinit
@@ -13,5 +12,3 @@ HISTFILE=~/.histfile
 HISTSIZE=100000
 PROMPT="%1~ %% "
 SAVEHIST=100000
-
-export PATH="~/.bin:$PATH"
