@@ -21,7 +21,7 @@ sudo scutil --set HostName
 
 mkdir ~/.bin
 
-$PWD/bin/linkup
+./bin/linkup
 
 brew cask install 1password
 brew cask install firefox
