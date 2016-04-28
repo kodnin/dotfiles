@@ -19,7 +19,7 @@ chsh -s /usr/local/bin/zsh
 
 sudo scutil --set HostName
 
-./linkup
+$PWD/bin/linkup
 
 brew cask install 1password
 brew cask install firefox
