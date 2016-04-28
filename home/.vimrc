@@ -14,6 +14,7 @@ set t_vb=
 set tabstop=2
 set viminfo=
 set visualbell
+set wildmenu
 
 syntax enable
 
