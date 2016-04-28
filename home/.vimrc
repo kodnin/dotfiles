@@ -3,6 +3,7 @@ set nocompatible
 set autoindent
 set backspace=start,indent,eol
 set expandtab
+set hidden
 set laststatus=2
 set nobackup
 set noswapfile
