@@ -8,4 +8,5 @@ alias rm="rm -i"
 alias v=vim
 alias vi=vim
 
+export HOMEBREW_NO_ANALYTICS=1
 export PATH="~/.bin:$PATH"
