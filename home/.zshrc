@@ -1,7 +1,9 @@
 source ~/.environment.sh
 
 autoload -Uz compinit vcs_info
+
 compinit
+zstyle ":completion:*" menu select
 
 bindkey -e
 
