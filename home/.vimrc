@@ -1,3 +1,5 @@
+set nocompatible
+
 autocmd BufWritePre * :%s/\s\+$//e
 
 let g:netrw_dirhistmax=0
