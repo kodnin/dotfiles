@@ -1,9 +1,5 @@
 set nocompatible
 
-autocmd BufWritePre * :%s/\s\+$//e
-
-let g:netrw_dirhistmax=0
-
 set autoindent
 set backspace=start,indent,eol
 set expandtab
@@ -18,3 +14,7 @@ set viminfo=
 set visualbell
 
 syntax enable
+
+let g:netrw_dirhistmax=0
+
+autocmd BufWritePre * :%s/\s\+$//e
