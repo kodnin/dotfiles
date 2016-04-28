@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew doctor
+
+brew update
+
+brew install bash
+brew install emacs --with-cocoa
+brew install git
+brew install vim
+brew install zsh
+
+brew cleanup
+
+echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/zsh
+
+sudo scutil --set HostName
+
+./linkup
