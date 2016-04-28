@@ -6,6 +6,7 @@ set expandtab
 set laststatus=2
 set nobackup
 set noswapfile
+set nowritebackup
 set ruler
 set shiftwidth=2
 set t_vb=
