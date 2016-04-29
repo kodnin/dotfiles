@@ -25,8 +25,10 @@ let mapleader=","
 nnoremap <Leader>1 :only<CR>
 nnoremap <Leader><Leader> :edit #<CR>
 nnoremap <Leader>f :edit .<CR>
+nnoremap <Leader>p :set paste<CR>"+p<CR>:set nopaste<CR>
 nnoremap <Leader>ve :edit ~/.vimrc<CR>
 nnoremap <Leader>vr :source ~/.vimrc<CR>
 xnoremap <Leader>s :sort<CR>
+xnoremap <Leader>y "+y<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
