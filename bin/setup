@@ -34,3 +34,5 @@ brew cask install spotify
 brew cask install telegram
 
 brew cask cleanup
+
+open /System/Library/PreferencePanes/Security.prefPane
