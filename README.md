@@ -1,15 +1,13 @@
 # dotfiles
 
-These are my dotfiles. To retrieve them run:
+To retrieve the dotfiles run:
 
     $ git clone git@github.com:kodnin/dotfiles.git ~/.dotfiles
 
-To setup a fresh system (including linking up the dotfiles) run:
+To setup a fresh system with Homebrew packages and linkup the dotfiles run:
 
-    $ cd ~/.dotfiles
-    $ bin/setup
+    $ cd ~/.dotfiles && bin/setup
 
-To exclusively linkup the dotfiles run:
+To solely linkup the dotfiles run:
 
-    $ cd ~/.dotfiles
-    $ bin/linkup
+    $ cd ~/.dotfiles && bin/linkup
