@@ -22,6 +22,7 @@ syntax enable
 let g:netrw_dirhistmax=0
 let mapleader=","
 
+nnoremap <Leader>1 :only<CR>
 nnoremap <Leader><Leader> :edit #<CR>
 nnoremap <Leader>f :edit .<CR>
 nnoremap <Leader>ve :edit ~/.vimrc<CR>
