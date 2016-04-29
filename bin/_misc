@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
+chsh -s /usr/local/bin/zsh
+
+mkdir ~/.bin
+
+sudo scutil --set HostName
+
+open /System/Library/PreferencePanes/Security.prefPane

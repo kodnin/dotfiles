@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew doctor
+
+brew update
+
+brew install bash
+brew install emacs --with-cocoa
+brew install git
+brew install vim
+brew install zsh
+
+brew cleanup
+
+brew cask install 1password
+brew cask install firefox
+brew cask install flux
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install skype
+brew cask install slack
+brew cask install spotify
+brew cask install telegram
+
+brew cask cleanup
