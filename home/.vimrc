@@ -1,5 +1,9 @@
 set nocompatible
 
+filetype plugin indent on
+
+syntax enable
+
 set autoindent
 set backspace=start,indent,eol
 set expandtab
@@ -16,8 +20,6 @@ set tabstop=2
 set viminfo=
 set visualbell
 set wildmenu
-
-syntax enable
 
 let g:netrw_dirhistmax=0
 let mapleader=","
