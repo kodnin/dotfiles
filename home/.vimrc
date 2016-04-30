@@ -25,9 +25,9 @@ let mapleader=","
 nnoremap <Leader>1 :only<CR>
 nnoremap <Leader><Leader> :edit #<CR>
 nnoremap <Leader>f :edit .<CR>
-nnoremap <Leader>p :set paste<CR>"+p<CR>:set nopaste<CR>
+nnoremap <Leader>p :call PasteFromClipboard()<CR>
 xnoremap <Leader>s :sort<CR>
-xnoremap <Leader>y "+y<CR>
+xnoremap <Leader>y :call CopyToClipboard()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
 
@@ -43,3 +43,15 @@ if !exists("*ReloadConfig")
     source ~/.vimrc
   endfunction
 endif
+
+function! CopyToClipboard() range
+  silent normal! gv"+y
+  echo "Copied!"
+endfunction
+
+function! PasteFromClipboard()
+  set paste
+  silent normal! "+p
+  set nopaste
+  echo "Pasted!"
+endfunction
