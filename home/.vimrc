@@ -12,6 +12,7 @@ set encoding=utf-8
 set expandtab
 set hidden
 set history=1000
+set hlsearch
 set incsearch
 set laststatus=2
 set nobackup
