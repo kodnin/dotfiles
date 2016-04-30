@@ -16,6 +16,7 @@ set nowritebackup
 set ruler
 set shiftwidth=2
 set showcmd
+set smarttab
 set t_vb=
 set tabstop=2
 set viminfo=
