@@ -16,8 +16,10 @@ set noswapfile
 set nowrap
 set nowritebackup
 set ruler
+set scrolloff=1
 set shiftwidth=2
 set showcmd
+set sidescrolloff=5
 set smarttab
 set t_vb=
 set tabstop=2
