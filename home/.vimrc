@@ -26,7 +26,7 @@ nnoremap <Leader>1 :only<CR>
 nnoremap <Leader><Leader> :edit #<CR>
 nnoremap <Leader>f :edit .<CR>
 nnoremap <Leader>p :call PasteFromClipboard()<CR>
-xnoremap <Leader>s :sort<CR>
+xnoremap <Leader>s :call SortVisualSelection()<CR>
 xnoremap <Leader>y :call CopyToClipboard()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
@@ -54,4 +54,9 @@ function! PasteFromClipboard()
   silent normal! "+p
   set nopaste
   echo "Pasted!"
+endfunction
+
+function! SortVisualSelection() range
+  '<,'>sort
+  echo "Sorted!"
 endfunction
