@@ -29,6 +29,7 @@ set t_vb=
 set tabstop=2
 set ttimeout
 set ttimeoutlen=100
+set ttyfast
 set viminfo=
 set visualbell
 set wildmenu
