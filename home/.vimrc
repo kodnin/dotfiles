@@ -9,6 +9,7 @@ set backspace=indent,eol,start
 set complete-=i
 set expandtab
 set hidden
+set incsearch
 set laststatus=2
 set nobackup
 set noswapfile
