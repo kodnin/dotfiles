@@ -5,6 +5,7 @@ filetype plugin indent on
 syntax enable
 
 set autoindent
+set autoread
 set backspace=indent,eol,start
 set complete-=i
 set encoding=utf-8
