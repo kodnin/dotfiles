@@ -18,6 +18,7 @@ set nowrap
 set nowritebackup
 set ruler
 set scrolloff=1
+set shell=/usr/local/bin/bash
 set shiftwidth=2
 set showcmd
 set sidescrolloff=5
