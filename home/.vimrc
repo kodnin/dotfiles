@@ -6,6 +6,7 @@ syntax enable
 
 set autoindent
 set backspace=indent,eol,start
+set complete-=i
 set expandtab
 set hidden
 set laststatus=2
