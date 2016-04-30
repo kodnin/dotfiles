@@ -19,6 +19,8 @@ set showcmd
 set smarttab
 set t_vb=
 set tabstop=2
+set ttimeout
+set ttimeoutlen=100
 set viminfo=
 set visualbell
 set wildmenu
