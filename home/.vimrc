@@ -22,9 +22,9 @@ syntax enable
 let g:netrw_dirhistmax=0
 let mapleader=","
 
+nnoremap <Leader>. :edit .<CR>
 nnoremap <Leader>1 :only<CR>
 nnoremap <Leader><Leader> :edit #<CR>
-nnoremap <Leader>f :edit .<CR>
 nnoremap <Leader>p :call PasteFromClipboard()<CR>
 xnoremap <Leader>s :call SortVisualSelection()<CR>
 xnoremap <Leader>y :call CopyToClipboard()<CR>
