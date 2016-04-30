@@ -15,6 +15,7 @@ set history=1000
 set hlsearch
 set incsearch
 set laststatus=2
+set lazyredraw
 set nobackup
 set noswapfile
 set nowrap
