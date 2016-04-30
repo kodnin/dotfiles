@@ -13,6 +13,7 @@ set incsearch
 set laststatus=2
 set nobackup
 set noswapfile
+set nowrap
 set nowritebackup
 set ruler
 set shiftwidth=2
