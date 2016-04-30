@@ -27,6 +27,7 @@ let mapleader=","
 nnoremap <Leader>. :edit .<CR>
 nnoremap <Leader>1 :only<CR>
 nnoremap <Leader><Leader> :edit #<CR>
+nnoremap <Leader>= gg=G
 nnoremap <Leader>p :call PasteFromClipboard()<CR>
 xnoremap <Leader>s :call SortVisualSelection()<CR>
 xnoremap <Leader>y :call CopyToClipboard()<CR>
