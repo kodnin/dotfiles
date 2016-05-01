@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
+mkdir ~/.bin
+
 echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh
-
-mkdir ~/.bin
 
 sudo scutil --set HostName
 
