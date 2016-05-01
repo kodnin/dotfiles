@@ -7,7 +7,6 @@ syntax enable
 set autoindent
 set autoread
 set backspace=indent,eol,start
-set complete-=i
 set encoding=utf-8
 set expandtab
 set hidden
