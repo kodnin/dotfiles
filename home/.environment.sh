@@ -1,8 +1,7 @@
 [ -f ~/.local.sh ] && source ~/.local.sh
 
 alias bup="brew update && brew upgrade && brew cleanup"
-alias e='emacsclient -nw -a "" -s term'
-alias em='emacsclient -c -n -a "" -s gui'
+alias e='emacsclient -a "" -c -n'
 alias ls="ls -AG"
 alias rm="rm -i"
 alias v=vim
