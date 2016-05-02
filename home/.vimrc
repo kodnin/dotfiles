@@ -39,7 +39,10 @@ let g:netrw_dirhistmax=0
 let mapleader=","
 
 nnoremap <Leader>. :edit .<CR>
+nnoremap <Leader>0 :quit<CR>
 nnoremap <Leader>1 :only<CR>
+nnoremap <Leader>2 :split<CR>
+nnoremap <Leader>3 :vsplit<CR>
 nnoremap <Leader><Leader> :edit #<CR>
 nnoremap <Leader><Space> :nohlsearch<CR>
 nnoremap <Leader>= gg=G
