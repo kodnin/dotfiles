@@ -1,8 +1,25 @@
+if empty(glob("~/.vim/autoload/plug.vim"))
+  silent ! curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
+call plug#begin('~/.vim/plugged')
+Plug 'chriskempson/base16-vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-fugitive'
+call plug#end()
+
+if empty(glob("~/.vim/plugged"))
+  execute "PlugInstall"
+endif
+
 set nocompatible
 
 filetype plugin indent on
 
 syntax enable
+
+colorscheme base16-default
 
 set autoindent
 set autoread
@@ -35,8 +52,11 @@ set viminfo=
 set visualbell
 set wildmenu
 
-let g:netrw_dirhistmax=0
 let mapleader=","
+
+let g:ctrlp_custom_ignore=".git\|node_modules\|tmp"
+let g:ctrlp_map="<Leader>f"
+let g:netrw_dirhistmax=0
 
 nnoremap <Leader>. :edit .<CR>
 nnoremap <Leader>0 :quit<CR>
