@@ -54,7 +54,7 @@ set wildmenu
 
 let mapleader=","
 
-let g:ctrlp_custom_ignore=".git\|node_modules\|tmp"
+let g:ctrlp_custom_ignore='.git\|node_modules\|tmp'
 let g:ctrlp_map="<Leader>f"
 let g:ctrlp_show_hidden=1
 let g:netrw_dirhistmax=0
