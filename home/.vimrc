@@ -72,6 +72,7 @@ xnoremap <Leader>s :call SortVisualSelection()<CR>
 xnoremap <Leader>y :call CopyToClipboard()<CR>
 
 autocmd BufWritePre * :%s/\s\+$//e
+autocmd QuickFixCmdPost *grep* cwindow
 autocmd VimEnter * echo "Hacks and glory await!"
 
 command! OpenConfig call OpenConfig()
